@@ -2,8 +2,8 @@
    "containerDefinitions": [ 
       { 
          "essential": true,
-          "image": "250155391967.dkr.ecr.us-east-1.amazonaws.com/avv-jenkins-cicd-demo:latest",
-          "logConfiguration": { 
+          "image": .dkr.ecr.us-east-1.amazonaws.com/avv-jenkins-cicd-demo:latest",
+          "logConfiguration":  
             "logDriver": "awslogs",
             "options": { 
                "awslogs-group" : "/ecs/avv-jenkins-cicd-demo",
