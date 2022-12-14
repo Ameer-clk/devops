@@ -2,10 +2,10 @@
 _______________________________________________________
 
 
-#Click the link to install Jenkins
+#To install jenkins click here:
 
 https://www.jenkins.io/download/
 
-#To create pipeline click here 
+#To create pipeline click here:
 
 https://www.jenkins.io/doc/book/pipeline/
