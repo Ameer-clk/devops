@@ -24,7 +24,7 @@
       }
    ],
    "cpu": "256",
-   "executionRoleArn": "arn:aws:iam::792808453918:role/jenkinsrole",
+   "executionRoleArn": "arn:aws:iam::792808453918:role/ecsExecutionRole",
    "family": "jenkins",
    "memory": "512",
    "networkMode": "awsvpc",
