@@ -2,7 +2,7 @@
    "containerDefinitions": [ 
       { 
          "essential": true,
-          "image": "06640050dc3f556bb.dkr.ecr.us-east-1.amazonaws.com/jenkins",
+          "image": "06640050dc3f556bb.dkr.ecr.us-east-1.amazonaws.com/jenkins:latest",
           "logConfiguration": {
             "logDriver": "awslogs",
             "options": { 
