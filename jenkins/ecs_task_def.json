@@ -2,16 +2,16 @@
    "containerDefinitions": [ 
       { 
          "essential": true,
-          "image": "06640050dc3f556bb.dkr.ecr.us-east-1.amazonaws.com/jenkins:latest",
+          "image": "ami-007855ac798b75e.dkr.ecr.us-east-1.amazonaws.com/:cloudstudylatest",
           "logConfiguration": {
             "logDriver": "awslogs",
             "options": { 
-               "awslogs-group" : "/ecs/jenkins",
+               "awslogs-group" : "/ecs/cloudstudy",
                "awslogs-region": "us-east-1",
                "awslogs-stream-prefix": "ecs"
             }
          },
-         "name": "jenkins",
+         "name": "cloudstudy",
          "entryPoint": [],
          "command": [],
          "portMappings": [ 
@@ -24,8 +24,8 @@
       }
    ],
    "cpu": "256",
-   "executionRoleArn": "arn:aws:iam::792808453918:role/ecsTaskExecutionRole",
-   "family": "jenkins",
+   "executionRoleArn": "arn:aws:iam::098386855668:role/ecsTaskExecutionRole",
+   "family": "cloudstudy",
    "memory": "512",
    "networkMode": "awsvpc",
    "requiresCompatibilities": [ 
