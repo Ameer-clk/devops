@@ -1,16 +1,16 @@
 pipeline {
         environment {
             REGION='us-east-1'
-            CLUSTER='mycluster'
-            AWS_ACCOUNT='792808453918'
+            CLUSTER='cloudstudy-ecs'
+            AWS_ACCOUNT='098386855668'
             SERVICE_NAME='jenkins'
             TASKDEF_NAME='jenkins'
             TASKDEF_FILE='ecs_task_def.json'
             DESIRED_COUNT=1
             REPOSITORY_NAME='jenkins'
             REPOSITORY_URI="${env.AWS_ACCOUNT}.dkr.ecr.${env.REGION}.amazonaws.com/${env.REPOSITORY_NAME}"
-            SONARQUBE_ENDPOINT='http://sonarqube.otione.com:9000'
-            SONARQUBE_TOKEN='be79e7ef5e8d44cfcd8181c914b673253eb8a9f0'
+            SONARQUBE_ENDPOINT='http://44.203.184.53/'
+            SONARQUBE_TOKEN='cd02aed12bfb7f5c90ee69b00d55b18a7f25bdd5'
     }
     agent any
     stages {
