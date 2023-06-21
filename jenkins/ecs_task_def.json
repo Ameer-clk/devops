@@ -2,11 +2,11 @@
    "containerDefinitions": [ 
       { 
          "essential": true,
-          "image": "ami-007855ac798b75e.dkr.ecr.us-east-1.amazonaws.com/:cloudstudylatest",
+          "image": "ami-007855ac798b75e.dkr.ecr.us-east-1.amazonaws.com/:jenkinslatest",
           "logConfiguration": {
             "logDriver": "awslogs",
             "options": { 
-               "awslogs-group" : "/ecs/cloudstudy",
+               "awslogs-group" : "/ecs/jenkins",
                "awslogs-region": "us-east-1",
                "awslogs-stream-prefix": "ecs"
             }
